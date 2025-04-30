@@ -1,0 +1,10 @@
+﻿Question1: 
+	Ans: No, abstract class cannot have a direct instance. A obj = new A(); this will cause compile time error.
+Question2:
+	Ans: No, you cannot call B's version of PrintName(message) from an instance of C, because it's private.
+	     Private methods are not accessible in derived classes or outside the class.
+Question3:
+	Ans: Abstraction-> A is an abstract class. It defines a template for subclasses and hides implementation details.
+		 Encapsulation-> Public, private, protected key words for restricting access.
+		 Inheritance-> Classes B,and D inherit from A, gaining access to its members.
+		 Polymorphism-> same method of two forms with word overridden. Through PrintName() being overridden in subclasses, you can call a.PrintName() and get different behavior depending on the actual object (B, D, etc.).

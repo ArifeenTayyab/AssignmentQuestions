@@ -1,0 +1,32 @@
+﻿Question1:
+	Ans: A design pattern is like a blueprint or best practice that helps solve recurring problems in software design, making code cleaner and easier to manage. It is like a template a programmer should use as it is tried and tested solution.\
+Question2:
+	Ans:
+	a) MVC stands for Model-View-Controller.
+	b) MVC divide your application into 3 separate components. Following is the detailed description about each of them:
+		Model:
+		It represents the data and business logic. It manages data and its rules. All data related stuff like Dtos, models etc are being created here.
+		View:
+		View is the user interface which we are suppose to show to the user which uses model for data displaying.
+		Controller:
+		It acts as a middleware for model and view as it is used a router to deal user request and return user the specific response. It also calls the model methods to retrieve the data.
+	c) It is being used in most popular frameworks like the one I used Asp .net core MVC.
+	   MVC can be used when front end and backend developers work in parallel.
+	   It can be used when we have reusable components so the same model can be used across different views.
+	   It can be used when we have separation of concerns.
+Question3:
+	Ans:
+	a) Singleton pattern : It ensures that a class has only one instance and it provides global access to it.
+	   Observer pattern: One object maintains a list of dependents and notifies them automatically of any state changes.
+	   Factory pattern: It provides an interface for creating objects without specifying their concrete classes.
+	b) I have used singleton pattern for logging purposes. Also, I have used it in java desktop app for one main frame that has one instance and the same was used by other classes.
+	c) Singleton--> instance-->same instance shared everywhere.
+				 ________observer a	
+				| 
+	   Subject=== notify()
+				|________observer b
+
+	   Factory--> createProduct()---->  creatProductA || createProductB
+
+
+	    

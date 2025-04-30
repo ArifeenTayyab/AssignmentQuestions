@@ -1,0 +1,16 @@
+﻿Question1:
+	Ans:
+	a) After having the demo of application, I will first go for the documentation of existing code base if it is available. If I dont understand some functions and classes, even after debugging, I will ask the seniours to help me understand that better. After understanding the code base, I will start working on the code by creating my own branch so that other code does not get disrupted aand I will ensure that my code is sync with the latest master changes. Also I will add comments to help others understand my changes.
+	b) First I will create my own branch from the latest master branch and start working on that branch. Between my work I will pull the latest changes of master branch sothat my code is also in sync with latest changes and after doing my work I will again test my changes and then I will my code for review and then I will create a merge request.
+Question2:
+	Ans:
+	a) Firstly, I will use clean or layered architecture like MVC to separate layers so that it can be more manageable.
+	   Secondly, I will try to clean my code base by reducing redundant code and by applying consistent naming conventions.
+	   Additionally, I will use dependency injection for loose coupling.
+	b) Firstly, I will ensure that my code is self explanatory by applying proper naming convention and adding comments where necessary.
+	   Secondly, I will ensure that major modules or classes are added in documentation.
+	   Finally, I will ensure that my code is tested thorougly before integrating or pushing to the branch. I will use testing strategies like unit test, automatic test and writing and running different test cases.
+Question3:
+	a) I will follow a modular architecture so that my modules are separated, independent and easily manageable.
+	   Also, I will implement interfaces so that new behaviour can be added without modifying existing code.
+	b) It will depend on the need whether I will need factory, or strategy pattern.
